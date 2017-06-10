@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Curso FDP - Modulo 3</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css"/>
+		<script src="js/autenticacao.js"></script>
+	
+	
+	</head>
+	
+	<body>
+	
+		<form method = "post" onsubmit="return validar()">
+			
+			<!--  <label>Usuario: </label>-->
+			<input id = "txtUsuario" name = "txtUsuario" type = "text" value = "" placeholder = "Usuario">	
+		
+			<!--  <label>Senha: </label>-->
+			<input id = "txtSenha" name = "txtSenha" type = "password" Value = "" placeholder = "Senha">
+			
+			<input type = "button" value = "Autenticar" onclick="aut.validarCampos()">
+		
+		</form>
+		
+	</body>
+</html>

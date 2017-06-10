@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+
+		input{
+			border:2px;
+			border-style: ridge;
+			border-color: black;
+		}
